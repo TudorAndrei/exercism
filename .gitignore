@@ -12,3 +12,11 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+**/*.beam
+/target/
+/tmp
+.idea/
+.idea/*
+erl_crash.dump
+*.lock
+node_modules/
